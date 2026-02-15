@@ -59,6 +59,15 @@ Custom Analysis Logic
 ↓
 Return Engagement Score + Suggestions
 
+## 📝 Approach & Implementation (Assessment Write-Up)
+
+This project was designed as a full-stack Social Media Content Analyzer that processes uploaded PDF and image files to evaluate engagement potential. The frontend was built using React (Vite) with a responsive and modern UI, including loading states and an animated dark/light mode toggle for improved user experience.
+
+The backend was developed using Node.js and Express, handling file uploads with Multer. For text extraction, PDF parsing was implemented using the pdf-parse library, while image files were processed using Tesseract.js for Optical Character Recognition (OCR). Extracted text is analyzed through a custom engagement scoring algorithm that evaluates word count, hashtag presence, punctuation signals, and call-to-action keywords.
+
+Basic error handling and file validation were added to ensure robustness. The application supports both file picker and drag-and-drop uploads. The frontend is deployed on Vercel and the backend on Render, ensuring full-stack production deployment.
+
+The overall approach focused on clean code structure, modularity, and meeting all technical requirements within the given time constraints.
 
 ---
 
